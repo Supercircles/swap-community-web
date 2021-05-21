@@ -1,0 +1,23 @@
+.icon-space {
+  margin: 0 0.4em;
+}
+.section-alt {
+  background-color: #1d244a;
+}
+.section-title-landing i {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(165, 97, 229, 1) 0%,
+    rgba(103, 122, 243, 1) 50%,
+    rgba(126, 222, 238, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(165, 97, 229, 1) 0%,
+    rgba(103, 122, 243, 1) 50%,
+    rgba(126, 222, 238, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

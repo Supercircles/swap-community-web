@@ -1,0 +1,9 @@
+.parallax-hero-title img {
+    width: 4em;
+  }
+  .navbar-icon {
+    margin: 0 0.4em;
+  }
+  img.client {
+    transition: all 0.5s;
+  }

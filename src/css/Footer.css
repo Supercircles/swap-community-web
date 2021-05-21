@@ -1,0 +1,29 @@
+.copyleft {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.footer-link a {
+  color: #999;
+}
+footer .column-header,
+.footer-link a:hover {
+  color: #a9b2e6;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(165, 97, 229, 1) 0%,
+    rgba(103, 122, 243, 1) 50%,
+    rgba(126, 222, 238, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(165, 97, 229, 1) 0%,
+    rgba(103, 122, 243, 1) 50%,
+    rgba(126, 222, 238, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .column-header a:hover {
+  text-decoration: underline;
+}

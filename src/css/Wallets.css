@@ -1,0 +1,70 @@
+.card {
+  color: #878787;
+  background: #151933;
+  min-width: 20em;
+  margin: 0 1em 2em 1em;
+}
+.card hr {
+    background-color: #1d244a;
+    height: 1px;
+}
+.card.light-bordered {
+  border: 1px solid #3f3f3f;
+}
+.card-content .walletName a {
+  color: #151933;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(165, 97, 229, 1) 0%,
+    rgba(103, 122, 243, 1) 50%,
+    rgba(126, 222, 238, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(165, 97, 229, 1) 0%,
+    rgba(103, 122, 243, 1) 50%,
+    rgba(126, 222, 238, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration:underline;
+}
+.card-content .walletName a:hover {
+  color: rgba(165, 97, 229, 1);
+  text-decoration: underline;
+}
+.description .button a,
+.description .button a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.card-content .version {
+  font-size: .8em;
+}
+.card-content .hash {
+  font-size: .8em;
+}
+.card-content pre {
+  font-size: .8em;
+}
+.card-title {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.hero-body .title.main-title i,
+.hero-body .title.main-title i:hover,
+.services-cards.is-minimal .card i,
+.services-cards.is-minimal .card:hover i {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(165, 97, 229, 1) 0%,
+    rgba(103, 122, 243, 1) 50%,
+    rgba(126, 222, 238, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
